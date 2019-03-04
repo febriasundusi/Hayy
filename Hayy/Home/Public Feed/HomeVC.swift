@@ -276,7 +276,7 @@ class HomeVC: UITableViewController, IndicatorInfoProvider {
                 cell.fullNameLabel.text = getName as? String
                 cell.avaImageView.kf.setImage(with: URL(string: getImage as! String))
                 cell.dateLabel.text = formatterShow.string(from: date)
-                //cell.videoView
+                //cell.video
                 cell.textPost.text = textPost as? String
                 cell.likeButton.tag = indexPath.row
                 
