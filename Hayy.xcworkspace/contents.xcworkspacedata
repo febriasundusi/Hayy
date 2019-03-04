@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:build">
+   </FileRef>
+   <FileRef
+      location = "group:Hayy">
+   </FileRef>
+   <FileRef
+      location = "group:Hayy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HayyTests">
+   </FileRef>
+   <FileRef
+      location = "group:HayyUITests">
+   </FileRef>
+   <FileRef
+      location = "group:Pods">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:Podfile.lock">
+   </FileRef>
+   <FileRef
+      location = "group:Podfile">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

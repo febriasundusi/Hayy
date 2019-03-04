@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         let notif_on_comment = "0"
         let userId = user.userID ?? "No User Id"
         let email = user.profile.email ?? "No Email"
-        let token = user.authentication.idToken
+        _ = user.authentication.idToken
         let update = 1
         
        

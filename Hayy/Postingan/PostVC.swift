@@ -26,7 +26,9 @@ class PostVC: UIViewController, UITextViewDelegate, UINavigationControllerDelega
     
     let imageUniqueName = UUID().uuidString
     
-    
+    var videoReference : StorageReference{
+        return Storage.storage().reference().child("videos\(imageUniqueName)")
+    }
     
     var imageReference : StorageReference {
         return Storage.storage().reference().child("images\(imageUniqueName)")
@@ -176,7 +178,7 @@ class PostVC: UIViewController, UITextViewDelegate, UINavigationControllerDelega
         else {
         let media_url_teks = ""
         
-            helper.createPost(title: title, text: text, type: "text", media_url: media_url_teks, status: 0, method: "POST")
+            helper.createPost(title: title, text: text, type: "text", media_url: media_url_teks, status: 1, method: "POST")
             let homeVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBar")
             self.present(homeVC, animated: true, completion: nil)
 
@@ -202,10 +204,12 @@ class PostVC: UIViewController, UITextViewDelegate, UINavigationControllerDelega
                 
             print(getURL)
             
-            self.helper.createPost(title: title, text: text, type: "image", media_url: getURL, status: 0, method: "POST")
-            let homeVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeID")
+            self.helper.createPost(title: title, text: text, type: "image", media_url: getURL, status: 1, method: "POST")
+            let homeVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBar")
             self.present(homeVC, animated: true, completion: nil)
         }
     }
+    
+  }
 
-}
+

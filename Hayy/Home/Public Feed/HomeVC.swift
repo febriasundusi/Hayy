@@ -10,10 +10,11 @@ import UIKit
 import Kingfisher
 import XLPagerTabStrip
 import Floaty
+import AVKit
 
 
 class HomeVC: UITableViewController, IndicatorInfoProvider {
-    
+
     var actionButton : ActionButton!
     
     lazy var refresher: UIRefreshControl = {
@@ -245,7 +246,7 @@ class HomeVC: UITableViewController, IndicatorInfoProvider {
                 
                 let image = posts[indexPath.row]?["user_profile_id"] as? NSDictionary
                 let getImage = image?["image"]
-                
+
                 let dateString = posts[indexPath.row]!["created_at"] as! String
                 
                 // TAKING THE DATE RECEIVED FROM THE SERVER AND PUTTING IT IN THE FOLLOWING FORMAT RECOGNIZED AS BEING DATE()
@@ -257,7 +258,7 @@ class HomeVC: UITableViewController, IndicatorInfoProvider {
                 let formatterShow = DateFormatter()
                 formatterShow.dateFormat = "dd MMMM yyyy - HH:mm"
                 
-                let imagePost = posts[indexPath.row]?["media_url"] as? String
+            _ = posts[indexPath.row]?["media_url"] as? String
                 
                 let textPost = posts[indexPath.row]?["title"]
                 let like = posts[indexPath.row]?["like_count"] ?? "0"
