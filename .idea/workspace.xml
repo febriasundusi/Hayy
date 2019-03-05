@@ -4,7 +4,7 @@
     <list default="true" id="650b8607-b8e4-415f-bba4-ccaa073f8daa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hayy.xcworkspace/xcuserdata/febriasundusi.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Hayy.xcworkspace/xcuserdata/febriasundusi.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hayy/Home/Public Feed/HomeVC.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hayy/Home/Public Feed/HomeVC.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pods/XLPagerTabStrip/Sources/PagerTabStripViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+            <state relative-caret-position="333">
+              <caret line="381" column="96" selection-start-line="381" selection-start-column="96" selection-end-line="381" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hayy/HomePagerStrip.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="459">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding>
+                <element signature="e#177#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +82,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>video</find>
+      <find>view con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551671921291</updated>
       <workItem from="1551671947191" duration="797000" />
-      <workItem from="1551673003594" duration="5306000" />
+      <workItem from="1551673003594" duration="8972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6103000" />
+    <option name="totallyTimeSpent" value="9769000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -193,11 +197,11 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49827588" visible="true" weight="0.24959612" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5017241" side_tool="true" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.24959612" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49757674" visible="true" weight="0.20547946" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49676898" weight="0.20547946" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
@@ -207,8 +211,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49919224" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.20547946" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49757674" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -295,17 +299,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hayy/HomePagerStrip.swift">
+    <entry file="file://$PROJECT_DIR$/Pods/XLPagerTabStrip/Sources/PagerTabStripViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="333">
+          <caret line="381" column="96" selection-start-line="381" selection-start-column="96" selection-end-line="381" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/XLPagerTabStrip/Sources/PagerTabStripViewController.swift">
+    <entry file="file://$PROJECT_DIR$/Hayy/HomePagerStrip.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
+        <state relative-caret-position="459">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="e#177#189#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
